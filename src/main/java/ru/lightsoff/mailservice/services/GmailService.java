@@ -11,14 +11,10 @@ import java.util.Properties;
 
 @Component
 public class GmailService implements EmailService {
-    //    private  String GMAIL_USERNAME;
-//    private String GMAIL_PASSWORD;
-//    private  String GMAIL_HOST;
-//    private  String GMAIL_PORT;
-    String GMAIL_USERNAME = "???";
-    String GMAIL_PASSWORD = "???";
-    String GMAIL_HOST = "smtp.gmail.com";
-    String GMAIL_PORT = "587";
+    private final String GMAIL_USERNAME = "";
+    private final String GMAIL_PASSWORD = "";
+    private final String GMAIL_HOST = "smtp.gmail.com";
+    private final String GMAIL_PORT = "587";
 
     Session session;
 
